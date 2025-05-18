@@ -3,6 +3,7 @@ import User from "../models/User.js";
 import connectDB from "../configs/mongodb.js";
 
 export const clerkWebhooks = async (req, res) => {
+  console.log("hello");
   try {
     await connectDB(); // Ensure DB is connected in serverless
 
